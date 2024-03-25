@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F3F3F3;
+}
+.todos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header {
+    color: #D8C4E6;
+    font-size: 100px;
+    font-weight: 700;
+    padding: 100px 0;
+}
+.input {
+    width: 250px;
+    border-color: white;
+    border: none;
+    font-size: 14px;
+    color: black;
+    padding: 10px;
+    outline: none;
+}
+.input:focus-visible {
+    border: none;
+    outline: none;
+}
+.list {
+    width: 250px;
+    border: 1px;
+    background-color: white;
+    border-top: 1px solid rgb(210, 210, 210);
+}
+.item {
+    font-size: 14px;
+    list-style-type: none;
+    padding: 10px;
+}
+.complited {
+    text-decoration: line-through;
+}
+.card {
+    padding-bottom: 200px;
+}
