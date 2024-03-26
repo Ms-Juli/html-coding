@@ -30,6 +30,17 @@ const render = () => {
                 li.classList.add("complited");
             }
             
+            li.addEventListener("click", () => {
+                list[index].complited = !list[index].complited;
+                render();
+            })
+
+            li.addEventListener("contextmenu", () => {
+            
+                list.splice(index, 1);
+
+                render();
+            });
             listDOM.appendChild(li);
         }
     )
@@ -38,7 +49,7 @@ const render = () => {
 render();
 
 inputDOM.addEventListener("keypress", (event) => {
-    if(event.key === "Enter") {
+    if(event.key === "Enter" && inputDOM.value.length > 3) {
         const todo = {
             text: inputDOM.value, complited: false
         }
