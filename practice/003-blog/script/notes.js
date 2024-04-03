@@ -3,33 +3,27 @@ const notesDOM = document.querySelector(".list");
 const notes = [
     {
         date: "2024-04-03",
-        quote: "The outcomes are a byproduct of your process.",
+        quote: "Lorem Ipsum. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
         authorName: "— Marc Hemeon",
-        comment: "I'm a creature of habits with a massive struggle to find focus for the sake of making a thing. Partly because I don't have a strong sense of what I want to do with my 4000 weeks, but as Marc points out, I'm not convinced that having a sharply defined target is the best way to get anywhere. I have my quirks, my process of making stuff because it all goes somewhere- like these notes."
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat leo viverra eros vehicula mollis. Suspendisse iaculis sapien at ligula hendrerit tristique. In hac habitasse platea dictumst. Duis ut nisl ac est hendrerit pretium quis a diam."
     },
     {
         date: "2024-04-03",
-        quote: "The outcomes are a byproduct of your process.",
+        quote: "Lorem Ipsum. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
         authorName: "— Marc Hemeon",
-        comment: "I'm a creature of habits with a massive struggle to find focus for the sake of making a thing. Partly because I don't have a strong sense of what I want to do with my 4000 weeks, but as Marc points out, I'm not convinced that having a sharply defined target is the best way to get anywhere. I have my quirks, my process of making stuff because it all goes somewhere- like these notes."
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat leo viverra eros vehicula mollis. Suspendisse iaculis sapien at ligula hendrerit tristique. In hac habitasse platea dictumst. Duis ut nisl ac est hendrerit pretium quis a diam."
     },
     {
         date: "2024-04-03",
-        quote: "The outcomes are a byproduct of your process.",
+        quote: "Lorem Ipsum. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
         authorName: "— Marc Hemeon",
-        comment: "I'm a creature of habits with a massive struggle to find focus for the sake of making a thing. Partly because I don't have a strong sense of what I want to do with my 4000 weeks, but as Marc points out, I'm not convinced that having a sharply defined target is the best way to get anywhere. I have my quirks, my process of making stuff because it all goes somewhere- like these notes."
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat leo viverra eros vehicula mollis. Suspendisse iaculis sapien at ligula hendrerit tristique. In hac habitasse platea dictumst. Duis ut nisl ac est hendrerit pretium quis a diam."
     },
     {
         date: "2024-04-03",
-        quote: "The outcomes are a byproduct of your process.",
+        quote: "Lorem Ipsum. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
         authorName: "— Marc Hemeon",
-        comment: "I'm a creature of habits with a massive struggle to find focus for the sake of making a thing. Partly because I don't have a strong sense of what I want to do with my 4000 weeks, but as Marc points out, I'm not convinced that having a sharply defined target is the best way to get anywhere. I have my quirks, my process of making stuff because it all goes somewhere- like these notes."
-    },
-    {
-        date: "2024-04-03",
-        quote: "The outcomes are a byproduct of your process.",
-        authorName: "— Marc Hemeon",
-        comment: "I'm a creature of habits with a massive struggle to find focus for the sake of making a thing. Partly because I don't have a strong sense of what I want to do with my 4000 weeks, but as Marc points out, I'm not convinced that having a sharply defined target is the best way to get anywhere. I have my quirks, my process of making stuff because it all goes somewhere- like these notes."
+        comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat leo viverra eros vehicula mollis. Suspendisse iaculis sapien at ligula hendrerit tristique. In hac habitasse platea dictumst. Duis ut nisl ac est hendrerit pretium quis a diam."
     }
 ];
 
