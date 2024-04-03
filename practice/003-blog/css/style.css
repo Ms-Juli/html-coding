@@ -134,4 +134,44 @@ body {
 .container {
     max-width: 640px;
 }
+.footer ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.header ul li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.list {
+    list-style: none;
+}
+.item {
+    background-color: var(--border-color);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.item:last-child {
+    margin-bottom: 0;
+}
+.date {
+    color: var(--secondary-color);
+    font-size: 12px;
+}
+.quote {
+    padding-top: 30px;
+    color: var(--primary-color);
+    font-size: 20px;
+}
+.author-name {
+    padding-top: 20px;
+    color: var(--secondary-color);
+    font-size: 12px;
+}
+.comment {
+    padding-top: 20px;
+    color: var(--secondary-color);
+    font-size: 12px;
+}
 
