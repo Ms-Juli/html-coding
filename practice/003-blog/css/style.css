@@ -143,10 +143,10 @@ body {
     color: var(--secondary-color);
 }
 
-.list {
+.notes .list {
     list-style: none;
 }
-.item {
+.notes .item {
     background-color: var(--border-color);
     border-radius: 15px;
     padding: 30px;
@@ -175,3 +175,46 @@ body {
     font-size: 12px;
 }
 
+.about-page {
+    color: var(--secondary-color);
+    font-size: 15px;
+    padding: 12px 0 0;
+    padding-top: 6vh;
+    line-height: 1.6;
+}
+
+.moments .title {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 500;
+}
+.moments {
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+}
+
+.gallery {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.gallery .list {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery .list .item {
+    height: 220px;
+    width: 220px;
+    background-color: var(--border-color);
+    padding: 20px;
+}
+.gallery .list .item .img {
+    background-image: url(../img/12.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
