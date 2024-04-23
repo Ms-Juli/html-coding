@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-yellow: #CFCE7F;
+    --color-red: #FF8B63;
+    --color-white: #FFFFFF;
+    --color-black: #21242D;
+    --color-grey: #333844;
+    --color-light-grey: #666C7D;
+    --background-color: #FF8260;
+    --border-radius: 15px;
+    --color-button: #2A2E39;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    border: 1px solid black;
+    width: 300px;
+    border-radius: var(--border-radius);
+    background-color: var(--color-black);
+}
+
+.display {
+    padding: 15px;
+    text-align: right;
+}
+
+.input {
+   color: var(--color-light-grey); 
+   font-size: 18px;
+}
+
+.input span {
+    color: var(--color-red);
+}
+
+.result {
+    color: var(--color-white);
+    font-size: 26px;
+}
+
+.actions {
+    background-color: var(--color-grey);
+    width: 100%;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 15px;
+}
+
+.button {
+    height: 55px;
+    width: 55px;
+    border-radius: var(--border-radius);
+    border: none;
+    background-color: var(--color-button);
+    color: var(--color-white);
+    font-size: 18px;
+}
+
+.yellow {
+    color: var(--color-yellow);
+}
+
+.red {
+    color: var(--color-red);
+}
+
