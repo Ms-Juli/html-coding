@@ -44,6 +44,7 @@ body {
 .input {
    color: var(--color-light-grey); 
    font-size: 18px;
+   min-height: 24px;
 }
 
 .input span {
@@ -53,6 +54,7 @@ body {
 .result {
     color: var(--color-white);
     font-size: 26px;
+    min-height: 32px;
 }
 
 .actions {
