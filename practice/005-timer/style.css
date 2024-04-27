@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-yellow: #FED046;
+    --color-black: #312C1A;
+}
+
+body {
+    background-color: var(--color-yellow);
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    width: 500px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 60px;
+    width: 500px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    font-size: 20px;
+    width: 500px;
+}
+
+.days {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+}
+
+.hours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+}
+
+.minutes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+}
+
+.seconds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+}
