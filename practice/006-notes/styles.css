@@ -67,19 +67,57 @@ body {
 .panel {
     display: flex;
     justify-content: space-between;
+    height: 34px;
 }
 
 .notebooks {
     color: var(--color-white);
     font-size: 20px;
+    height: 34px;
 }
 
-.counts {
+.count {
     color: var(--color-white);
     font-size: 20px;
+    display: inline-block;
+    border-bottom: 1px solid #3B3B3B;
+    border-radius: 5px;
+    background-color: #2A2A2A;
+    padding: 2px;
+    margin-left: 3px;
 }
 
 .action {
-    color: var(--color-white);
-    font-size: 20px;
+    color: var(--color-grey);
+    font-size: 26px;
+    height: 34px;
+}
+
+.description {
+    display: inline-block;
+    height: 34px;
+}
+
+.line {
+    background-color: #2B2B2B;
+    height: 1px;
+    width: 100%;
+    margin: 6px 0;
+}
+
+.list {
+    list-style: none;
+}
+
+.item {
+    background-color: #2D2D2D;
+    border-radius: 15px;
+
+}
+
+.body {
+    color: var(--color-grey);
+    padding: 15px 15px 10px 15px;
+    font-size: 16px;
+
 }
