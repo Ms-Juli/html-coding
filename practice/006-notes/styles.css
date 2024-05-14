@@ -107,12 +107,22 @@ body {
 
 .list {
     list-style: none;
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.list::-webkit-scrollbar {
+    width: 0; 
 }
 
 .item {
     background-color: #2D2D2D;
     border-radius: 15px;
+    margin-bottom: 15px;
+}
 
+.item:last-child {
+    margin-bottom: 0px;
 }
 
 .body {
@@ -120,4 +130,42 @@ body {
     padding: 15px 15px 10px 15px;
     font-size: 16px;
 
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: #3D3D3D;
+    border-top: 1px solid #3B3B3B;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.avatar {
+    height: 32px;
+    width: 32px;
+}
+
+.avatar img {
+    object-fit: cover;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.note-name {
+    color: var(--color-light-grey);
+    font-size: 16px;
+}
+
+.note-date {
+    color: var(--color-text);
+    font-size: 15px;
 }
