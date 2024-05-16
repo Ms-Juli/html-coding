@@ -17,6 +17,22 @@
         <div class="container">
             <div class="card light-grey"></div>
             <div class="card grey"></div>
+            <div class="card edit-card" id="edit-card">
+                <div class="edit-card-action">
+                    <button type="button" class="button back" onclick="toggleEditCard()">Back</button>
+                    <button type="button" class="button save">Save</button>
+                </div>
+                <div class="edit-card-form">
+                    <div class="row">
+                        <label for="name" class="label">Name</label>
+                        <input type="text" name="name" id="" class="text">
+                    </div>
+                    <div class="row">
+                        <label for="text" class="label">Text</label>
+                        <textarea rows="5" name="text" id="" class="text"></textarea>
+                    </div>
+                </div>
+            </div>
             <div class="card dark-grey">
                 <div class="card-header">
                     Learning Notes
@@ -29,7 +45,7 @@
                             </div>
                             <div class="count">12</div>
                         </div>
-                        <div class="action">+</div>
+                        <div class="action" onclick="toggleEditCard()">+</div>
                     </div>
                     <div class="line"></div>
                     <ul class="list">
